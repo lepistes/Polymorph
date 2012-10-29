@@ -1,5 +1,4 @@
 
-
 #pragma once
 /*****************************************************************************
 
@@ -64,7 +63,7 @@ class noLeggedAnimal:public Animal{
 private:
 	double ground_speed; // Speed
 public:
-	void print(){ cout << "I'm a two legged animal. My name is:  " << getName() << endl; } // Virtual print()
+	void print(){ cout << "I have no legs. My name is:  " << getName() << endl; } // Virtual print()
 
 	noLeggedAnimal(char nameIn[], double ground_speedIn = 3.3):Animal(nameIn), ground_speed(ground_speedIn) {} //constructor
 };
